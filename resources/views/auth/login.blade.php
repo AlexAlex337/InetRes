@@ -42,7 +42,7 @@
                 <button type="submit" class="btn btn-primary">
                     Войти
                 </button>
-                <a class="btn blue" href="{{ route('vk.auth') }}"><i class="material-icons left">beenhere</i>Войти через ВК</a>
+                <!--<a class="btn blue" href="{{ route('vk.auth') }}"><i class="material-icons left">beenhere</i>Войти через ВК</a>-->
 
                 {{-- @if (Route::has('password.request'))
                     <a class="btn btn-link" href="{{ route('password.request') }}">
