@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Автомойка') }}</title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -44,6 +44,9 @@
                 <ul class="right hide-on-med-and-down">
                     @if (Route::has('login'))
                         @if (Auth::check())
+                        <li><a href="/informations">Информация</a></li>
+                        <li><a href="/price">Прайс-лист</a></li>
+                        <li><a href="/contacts">Контакты</a></li
                             <li><a>{{ Auth::user()->name }}</a></li>
                             <li>
                                 <a href="{{ url('/logout') }}" onclick="event.preventDefault();
@@ -71,6 +74,9 @@
     <ul class="sidenav" id="mobile-demo">
         @if (Route::has('login'))
             @if (Auth::check())
+                <li><a href="/informations">Информация</a></li>
+                <li><a href="/price">Прайс-лист</a></li>
+                <li><a href="/contacts">Контакты</a></li
                 <li><a>{{ Auth::user()->name }}</a></li>
                 <li>
                     <a href="{{ url('/logout') }}" onclick="event.preventDefault();
