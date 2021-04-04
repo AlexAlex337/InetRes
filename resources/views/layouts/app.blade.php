@@ -56,6 +56,9 @@
                                 </form>
                             </li>
                         @else
+                            <li><a href="/informations">Информация</a></li>
+                            <li><a href="/price">Прайс-лист</a></li>
+                            <li><a href="/contacts">Контакты</a></li>
                             <li><a href="{{ url('/login') }}">Войти</a></li>
                             <li><a href="{{ url('/register') }}">Регистрация</a></li>
                         @endif
@@ -79,6 +82,9 @@
                     </form>
                 </li>
             @else
+                <li><a href="/informations">Информация</a></li>
+                <li><a href="/price">Прайс-лист</a></li>
+                <li><a href="/contacts">Контакты</a></li>
                 <li><a href="{{ url('/login') }}">Войти</a></li>
                 <li><a href="{{ url('/register') }}">Регистрация</a></li>
             @endif
