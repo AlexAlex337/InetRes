@@ -44,9 +44,9 @@
                 <ul class="right hide-on-med-and-down">
                     @if (Route::has('login'))
                         @if (Auth::check())
-                        <li><a href="/informations">Информация</a></li>
-                        <li><a href="/price">Прайс-лист</a></li>
-                        <li><a href="/contacts">Контакты</a></li
+                            <li><a href="/informations">Информация</a></li>
+                            <li><a href="/price">Прайс-лист</a></li>
+                            <li><a href="/contacts">Контакты</a></li>
                             <li><a>{{ Auth::user()->name }}</a></li>
                             <li>
                                 <a href="{{ url('/logout') }}" onclick="event.preventDefault();
@@ -76,7 +76,7 @@
             @if (Auth::check())
                 <li><a href="/informations">Информация</a></li>
                 <li><a href="/price">Прайс-лист</a></li>
-                <li><a href="/contacts">Контакты</a></li
+                <li><a href="/contacts">Контакты</a></li>
                 <li><a>{{ Auth::user()->name }}</a></li>
                 <li>
                     <a href="{{ url('/logout') }}" onclick="event.preventDefault();
