@@ -123,7 +123,7 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-            Made by <a class="orange-text text-lighten-3" href="/">Igor Prozorov</a>
+            Made by <a class="orange-text text-lighten-3" href="/">Alexey Bogan</a>
         </div>
     </div>
 </footer>
