@@ -26,7 +26,7 @@
 
             <div class="row">
                 <label>Дата и время:</label>
-                <input name="time" type="datetime-local" min="<?php echo $currenttime?>>
+                <input name="time" type="datetime-local">
             </div>
             @error('time')
                 <span class="red-text">{{ $errors->first('time') }}</span><br><br>
