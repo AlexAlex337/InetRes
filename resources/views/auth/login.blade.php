@@ -21,7 +21,11 @@
                 <input placeholder="Пароль" id="password" type="password"
                     class="form-control @error('password') is-invalid @enderror" name="password" required
                     autocomplete="current-password">
-
+            <style>
+            .invalid-feedback {
+             color: red;
+            }
+            </style>
                 @error('password')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
