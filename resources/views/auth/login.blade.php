@@ -9,7 +9,11 @@
                 <input placeholder="E-mail" id="email" type="email"
                     class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}"
                     required autocomplete="email" autofocus>
-
+                <style>
+                                .invalid-feedback {
+                                color: red;
+                                }
+                            </style>
                 @error('email')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
