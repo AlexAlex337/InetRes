@@ -8,7 +8,7 @@
     <div class="container">
         <h3>Контакты</h3>
         <h5>Региональный офис г.Киров</h5>
-        <div class="row">
+        
             <div class="col s6">
                 <table class="highlight">
                     <tr>
@@ -37,7 +37,7 @@
                          width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                      </tr>
                 </table>
-            </div>
+            
             
         </div>
     </div>
