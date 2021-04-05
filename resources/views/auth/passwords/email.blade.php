@@ -23,7 +23,7 @@
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                             <style>
-                                .invalid-feedbac {
+                                .invalid-feedback {
                                 color: red;
                                 }
                             </style>
