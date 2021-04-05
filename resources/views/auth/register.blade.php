@@ -9,11 +9,7 @@
             <div class="row">
                 <input placeholder="Имя" id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name"
                     value="{{ old('name') }}" required autocomplete="name" autofocus>
-                 <style>
-                    .invalid-feedback {
-                    color: red;
-                    }
-                </style>
+
                 @error('name')
                     <span class="invalid-feedback" role="alert">
                         <strong>{{ $message }}</strong>
