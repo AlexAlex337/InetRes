@@ -48,10 +48,8 @@
         </form>
     </div><br>
     <script type="text/javascript">
-            $(document).ready(function () {
-                $('#datetimepicker11').datetimepicker({
-                    daysOfWeekDisabled: [0, 6]
-                });
-            });
+            $(function() {
+ $('#datetimepicker1').datetimepicker();
+});
             </script>
 @endsection
