@@ -52,4 +52,5 @@
  $('#datetimepicker1').datetimepicker();
 });
             </script>
+            <script src="/js/bootstrap-datetimepicker.min.js"></scrtip>
 @endsection
