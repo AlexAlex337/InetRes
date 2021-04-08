@@ -30,7 +30,7 @@
         <div class="row">
                 <!--div class='input-group date' id='datetimepicker11'-->
                 <label>Дата и время:</label>
-                <input name="time" type="datetime" min=<?php echo date('Y-m-d\TH:i');?>>
+                <input name="time" type="datetime-local" min=<?php echo date('Y-m-d\TH:i');?>>
                 <!--span class="input-group-addon">
                 <span class="glyphicon glyphicon-calendar"></span>
                 </div-->
