@@ -25,7 +25,7 @@ class OrderRequest extends FormRequest
     {
         return [
             'price_id' => 'required',
-            'time' => 'required|date'
+            'time' => 'required|date|unique:orders'
         ];
     }
 }
