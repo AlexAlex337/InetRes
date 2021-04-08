@@ -36,6 +36,7 @@
         });
 
     </script>
+    <scrtipt src="/js/bootstrap-datetimepicker.min.js"></script>
     <script src="/js/laravel.ajax.js"></script>
 
 </head>
