@@ -38,13 +38,7 @@
             @error('time')
                 <span class="red-text">{{ $errors->first('time') }}</span><br><br>
             @enderror
-            <script type="text/javascript">
-      $(document).ready(function () {
-          $('#datetimepicker11').datetimepicker({
-              daysOfWeekDisabled: [0, 6]
-          });
-      });
-   </script>
+            
             
            
             
@@ -53,4 +47,11 @@
             </div>
         </form>
     </div><br>
+    <script type="text/javascript">
+            $(document).ready(function () {
+                $('#datetimepicker11').datetimepicker({
+                    daysOfWeekDisabled: [0, 6]
+                });
+            });
+            </script>
 @endsection
