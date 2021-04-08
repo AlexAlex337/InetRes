@@ -18,7 +18,7 @@
             </div>
 
             <div class="row">
-                <input placeholder="E-mail" id="email" type="email" pattern="[а-яa-z0-9._%+-]+@[а-яa-z0-9.-]+\.[а-яa-z]{2,4}$" class="form-control @error('email') is-invalid @enderror" name="email"
+                <input placeholder="E-mail" id="email" type="text" pattern="[а-яa-z0-9._%+-]+@[а-яa-z0-9.-]+\.[а-яa-z]{2,4}$" class="form-control @error('email') is-invalid @enderror" name="email"
                     value="{{ old('email') }}" required autocomplete="email">
 
                 @error('email')
