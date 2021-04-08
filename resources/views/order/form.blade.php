@@ -29,7 +29,10 @@
 </div>
         <div class="row">
                 <!--div class='input-group date' id='datetimepicker11'-->
-                <label>Дата и время:</label>
+                <label>Дата:</label>
+                <input name="date" type="date" min=<?php echo date('Y-m-d\TH:i');?>>
+
+                <label>Dремя:</label>
                 <input name="time" type="time" min=<?php echo date('Y-m-d\TH:i');?>>
                 <!--span class="input-group-addon">
                 <span class="glyphicon glyphicon-calendar"></span>
