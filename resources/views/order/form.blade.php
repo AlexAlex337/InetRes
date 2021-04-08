@@ -24,13 +24,26 @@
                 <span class="red-text">{{ $errors->first('price_id') }}</span><br><br>
             @enderror
 
-            <div class="row">
-                <label>Дата и время:</label>
-                <input name="time" type="datetime-local" min=<?php echo date('Y-m-d\TH:i');?>>
-            </div>
-            @error('time')
-                <span class="red-text">{{ $errors->first('time') }}</span><br><br>
-            @enderror
+             <div style="overflow:hidden;">
+           <div class="form-group">
+              <div class="row">
+                 <div class="col-md-8">
+                    <div id="datetimepicker12"></div>
+                 </div>
+              </div>
+           </div>
+           <script type="text/javascript">
+              $(function () {
+                  $('#datetimepicker12').datetimepicker({
+                      inline: true,
+                      sideBySide: true
+                  });
+              });
+           </script>
+        </div>
+            
+           
+            
             <div class="row">
                 <button class="btn waves-effect waves-light green" type="submit" name="action">Записаться</button>
             </div>
