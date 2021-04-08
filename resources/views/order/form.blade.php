@@ -28,12 +28,12 @@
                
 </div>
         <div class="row">
-                <div class='input-group date' id='datetimepicker11'>
+                <!--div class='input-group date' id='datetimepicker11'-->
                 <label>Дата и время:</label>
-                <input name="time" type="datetime-local" class="form-control" min=<?php echo date('Y-m-d\TH:i');?>>
-                <span class="input-group-addon">
+                <input name="time" type="datetime" min=<?php echo date('Y-m-d\TH:i');?>>
+                <!--span class="input-group-addon">
                 <span class="glyphicon glyphicon-calendar"></span>
-                </div>
+                </div-->
             </div>
             @error('time')
                 <span class="red-text">{{ $errors->first('time') }}</span><br><br>
@@ -47,10 +47,5 @@
             </div>
         </form>
     </div><br>
-    <script type="text/javascript">
-            $(function() {
- $('#datetimepicker1').datetimepicker();
-});
-            </script>
             <script src="/js/bootstrap-datetimepicker.min.js"></scrtip>
 @endsection
